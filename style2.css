@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #232F3E;
+    color: #FFFFFF;
+    padding: 10px 15px;
+}
+
+.navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 50px;
+    border-radius: 20%;
+}
+
+.navbar-search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#btn {
+    padding: 8px;
+    background-color: #F5C518;
+    border: none;
+    border-radius: 4px;
+    color: #232F3E;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.language-option select {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.language-option select option {
+    background-color: #232F3E;
+    color: #FFFFFF;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-list {
+    display: flex;
+}
+
+.image-item {
+    min-width: 100%;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+main{
+    position: relative;
+    max-height:100vh;
+}
+.container{
+    width:15%;
+    height: auto;
+    padding:2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin:2px;
+    float: left;
+}
+
+.movie-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    float: left;
+}
+
+.movie-item {
+    width:200px; 
+    margin:2px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.container img {
+    width:100%; 
+    height: auto;
+    border-radius: 2px;
+}
+
+.movie-info {
+    padding: 2px;
+    text-align: center;
+}
+
+.movie-info h2 {
+    margin-bottom: 5px;
+}
+
+.movie-info p {
+    margin: 5px 0;
+}
+#fetchButton{
+    color:rgb(4, 4, 4);
+    size:15px;
+    background-color: blue;
+    margin: 2px;
+    border-radius: 10%;
+
+}
